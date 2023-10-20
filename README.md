@@ -14,9 +14,9 @@ HTTP-Inspector is a user-friendly and efficient tool for developers to inspect, 
 
 ## Technology Stack
 
-- Frontend: Vue 3, Axios, Bootstrap/Material-UI, Socket.io-client
+- Frontend: Nuxt 3, Axios, Bootstrap/Material-UI or Nuxt UI, Socket.io-client
 - Backend: Node.js, Express, Socket.io, MongoDB, Mongoose
-- Deployment: Docker, Kubernetes/Docker Compose, Nginx, Cloud Providers (AWS, Azure, GCP)
+- Deployment: Docker, Kubernetes/Docker Compose, Nginx.
 
 ## Installation
 
