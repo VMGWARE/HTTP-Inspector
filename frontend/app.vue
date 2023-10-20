@@ -15,3 +15,11 @@
   filter: blur(1rem);
 }
 </style>
+
+<script setup lang="ts">
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - HTTP Inspector` : "HTTP Inspector";
+  },
+});
+</script>
