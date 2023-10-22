@@ -142,8 +142,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Load the controllers
+const RequestController = require("./controllers/RequestController");
 
 // Setup the routes
+app.use("/api/request", RequestController);
 
 // Swagger documentation
 const options = require("./configs/swagger");
